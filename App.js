@@ -38,7 +38,7 @@ function App() {
     <View style={styles.container}>
       <Image source={require("./src/crono.png")} />
 
-      <View style={[styles.timerContainer, { marginTop: lastTime !== null ? -180 : -160 }]}> 
+      <View style={[styles.timerContainer, { marginTop: lastTime !== null ? -180 : -165 }]}> 
         <Text style={styles.timer}>{formatTime(time)}</Text>
         {lastTime !== null && (
           <Text style={styles.lastTime}>Último tempo: {formatTime(lastTime)}</Text>
